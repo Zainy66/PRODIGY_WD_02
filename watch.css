@@ -1,0 +1,70 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(45deg,#08001f,#30197d);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.header{
+    font-size: 4rem;
+}
+
+.container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+    height: 100px;
+    padding: 90px;
+    border-radius: 190px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+button{
+    font-size: 1rem;
+    background: rgb(214, 214, 214);
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+#start{
+    background-color: green;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+#stop{
+    background-color: rgb(128, 0, 0);
+    border-radius: 10px;
+    
+}
+#reset{
+    background-color: rgb(221, 41, 203);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+#lap{
+    background-color: rgb(7, 24, 180);
+    border-radius: 10px;
+}
+#display{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.line1 , .line2{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#stop, #lap{
+    margin-left: 10px;
+}
